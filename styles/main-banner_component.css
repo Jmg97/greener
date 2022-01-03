@@ -1,0 +1,40 @@
+.banner-box {
+  width: 5760px;
+  transition: transform 0.5s;
+}
+.banner-box .inner-box {
+  width: 1920px;
+  float: left;
+}
+.banner-box::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.inner-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.dot {
+  position: absolute;
+  display: flex;
+  bottom: 10%;
+  left: 47%;
+  width: 100px;
+  justify-content: center;
+}
+
+.dot li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}

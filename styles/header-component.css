@@ -1,0 +1,37 @@
+/* 헤더 박스 */
+.main-header {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* 헤더 로고 */
+.logo {
+  display: block;
+  margin: auto;
+  height: 75px;
+}
+.logo > h1 {
+  font-size: 50px;
+  color: #00584c;
+}
+/* 헤더 메뉴 박스 */
+.menu-box {
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00584c;
+}
+
+/* 메뉴 */
+li {
+  width: 100px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
