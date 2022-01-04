@@ -16,7 +16,7 @@
   padding-top: 13px;
 }
 /* 헤더 메뉴 박스 */
-.menu-box {
+.nav-box {
   width: 100vw;
   height: 75px;
   display: flex;
@@ -31,7 +31,7 @@ li {
   text-align: center;
 }
 
-.menu {
+.nav {
   display: flex;
   justify-content: space-between;
 }

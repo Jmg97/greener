@@ -1,19 +1,21 @@
 @import url(reset.css);
 @import url(header-component.css);
 @import url(main-banner_component.css);
+@import url(menu.css);
 
 * {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
 }
 
-.menu > li > a {
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav> li > a {
   color: #fff;
   font-weight: 600;
 }
 
-main {
-
-}

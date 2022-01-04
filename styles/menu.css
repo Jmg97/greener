@@ -1,0 +1,43 @@
+/* 인기 메뉴 */
+.top-menu{
+    width: 100%;
+    margin-top: 5%;
+}
+.menu-box{
+    margin: auto;
+    width: 75rem;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.menu-box > h1{
+    font-size: 40px;
+    color: #00584c;
+    font-weight: 1000;
+}
+.menu-box > ul{
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu-box > ul > li{
+font-size: 20;
+}
+
+
+
+.menu-box li:first-child{
+    color: #00584C
+}
+.menu-box li:nth-child(2){
+    border-left:1px solid rgba(102, 102, 102, 0.61);
+    border-right:1px solid rgba(102, 102, 102, 0.61);
+}
+
+/* 메뉴 박스 */
+
+.back-box{
+    width: 100%;
+}
