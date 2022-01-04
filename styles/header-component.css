@@ -11,9 +11,9 @@
   margin: auto;
   height: 75px;
 }
-.logo > h1 {
-  font-size: 50px;
-  color: #00584c;
+.logo > img{
+  height: 50px;
+  padding-top: 13px;
 }
 /* 헤더 메뉴 박스 */
 .menu-box {
