@@ -79,11 +79,25 @@
 @media screen and (min-width: 481px) and (max-width: 767px) {
 }
 @media screen and (max-width: 480px) {
+  .head-box {
+    width: 100%;
+  }
   .img-box {
     width: 100vw;
   }
   .img1 {
+    width: 100%;
     height: 40vh;
-    background: no-repeat center/cover url(/imges/mobile_banner01.jpg);
+    background: no-repeat center/cover url(/imges/mobile_banner01.png);
+  }
+  .img2 {
+    width: 100%;
+    height: 40vh;
+    background: no-repeat center/cover url(/imges/mobile_banner01.png);
+  }
+  .img3 {
+    width: 100%;
+    height: 40vh;
+    background: no-repeat center/cover url(/imges/mobile_banner01.png);
   }
 }

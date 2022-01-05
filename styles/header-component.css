@@ -7,17 +7,16 @@
 }
 /* 헤더 로고 */
 .logo {
-  display: block;
-  margin: auto;
-  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo > img {
-  height: 50px;
-  padding-top: 13px;
+  height: 4.5rem;
 }
 /* 헤더 메뉴 박스 */
 .nav-box {
-  width: 100%;
+  width: 100vw;
   height: 75px;
   display: flex;
   justify-content: center;
