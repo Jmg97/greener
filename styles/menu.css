@@ -1,43 +1,92 @@
 /* 인기 메뉴 */
-.top-menu{
-    width: 100%;
-    margin-top: 5%;
+.top-menu {
+  width: 100%;
+  margin-top: 5%;
 }
-.menu-box{
-    margin: auto;
-    width: 75rem;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-
-.menu-box > h1{
-    font-size: 40px;
-    color: #00584c;
-    font-weight: 1000;
-}
-.menu-box > ul{
-    display: flex;
-    align-items: flex-end;
+.menu-box {
+  margin: auto;
+  width: 75rem;
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
-.menu-box > ul > li{
-font-size: 20;
+.menu-box > h1 {
+  font-size: 40px;
+  color: #00584c;
+  font-weight: 700;
+}
+.menu-box > ul {
+  width: 230px;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 600;
 }
 
-
-
-.menu-box li:first-child{
-    color: #00584C
+.menu-box > ul > li {
+  font-size: 15px;
 }
-.menu-box li:nth-child(2){
-    border-left:1px solid rgba(102, 102, 102, 0.61);
-    border-right:1px solid rgba(102, 102, 102, 0.61);
+
+.menu-box li:first-child {
+  color: #00584c;
+}
+.menu-box li:nth-child(2) {
+  border-left: 1px solid rgba(102, 102, 102, 0.61);
+  border-right: 1px solid rgba(102, 102, 102, 0.61);
 }
 
 /* 메뉴 박스 */
 
-.back-box{
-    width: 100%;
+.back-box {
+  width: 100%;
+  display: flex;
+  height: 25rem;
+  background-color: rgba(235, 232, 232, 0.712);
+  justify-content: center;
+}
+
+.slide-box {
+  position: relative;
+  display: flex;
+  width: 75em;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slide-items {
+  width: max-content;
+  overflow: hidden;
+  position: absolute;
+  left: 2em;
+}
+
+.slide-items > li {
+  float: left;
+  width: 250px;
+  margin-left: 11.5em;
+  position: relative;
+}
+
+.slide-items li:first-child {
+  margin-left: 0;
+}
+
+.slide-items img {
+  height: 16rem;
+}
+
+.in-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.in-menu span {
+  display: block;
+  text-align: center;
+  line-height: 3.5;
+  font-size: 1.25rem;
+  font-weight: 600;
 }

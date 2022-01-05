@@ -2,20 +2,29 @@
 @import url(header-component.css);
 @import url(main-banner_component.css);
 @import url(menu.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.nav> li > a {
+.nav > li > a {
   color: #fff;
   font-weight: 600;
 }
 
+.all-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

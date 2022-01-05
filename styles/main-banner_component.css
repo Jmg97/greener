@@ -1,53 +1,52 @@
 /* 슬라이드 배너 */
-.head-box{
-  width: 100%;
-  display: block;
+.head-box {
+  width: 1920px;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
 }
 
-.image-main-box{
-width: 300%;
-overflow: hidden;
-transition: transform 0.5s;
+.image-main-box {
+  width: 300%;
+  transition: transform 0.5s;
 }
-.img-box{
-width: 33.33%;
-float: left;
+.img-box {
+  width: 1920px;
+  height: auto;
+  float: left;
 }
 
-.img1{
-  padding-bottom: 25%;
-  height:0;
+.img1 {
+  width: 100%;
+  height: 30rem;
   display: block;
   background-image: url(/imges/banner01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center ;
+  background-position: center;
 }
 
-.img2{
-  padding-bottom: 25%;
-  height:0;
+.img2 {
+  width: 100%;
+  height: 30rem;
   display: block;
   background-image: url(/imges/banner01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center ;
+  background-position: center;
 }
 
-.img3{
-  padding-bottom: 25%;
-  height:0;
+.img3 {
+  width: 100%;
+  height: 30rem;
   display: block;
   background-image: url(/imges/slide_03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center ;
+  background-position: center;
 }
 /* 슬라이드 */
-.dot{
+.dot {
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -57,7 +56,7 @@ float: left;
 
 .btn1,
 .btn2,
-.btn3{
+.btn3 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -68,25 +67,22 @@ float: left;
   transition: all 0.5s;
 }
 
-
-.btn-click{
+.btn-click {
   width: 40px;
   border-radius: 10px;
   background-color: rgb(250, 250, 66);
 }
 
-@media screen and (min-width:768px) and (max-width:1200px){
-
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 }
 
-@media screen and (min-width:481px) and (max-width:767px){
-
+@media screen and (min-width: 481px) and (max-width: 767px) {
 }
-@media screen and (max-width:480px){
-  .img-box{
-      width: 100vw;
+@media screen and (max-width: 480px) {
+  .img-box {
+    width: 100vw;
   }
-  .img1{
+  .img1 {
     height: 40vh;
     background: no-repeat center/cover url(/imges/mobile_banner01.jpg);
   }
