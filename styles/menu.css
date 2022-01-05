@@ -76,6 +76,11 @@
   margin-left: 0;
 }
 
+.info {
+  position: absolute;
+  transition: transform 1s ease;
+}
+
 .slide-items img {
   height: 16rem;
 }
@@ -85,7 +90,7 @@
   flex-direction: column;
 }
 
-.in-menu span {
+.in-menu > span {
   display: block;
   text-align: center;
   line-height: 3.5;
@@ -93,7 +98,7 @@
   font-weight: 600;
 }
 
-.in-menu > img:hover {
+.in-menu .in-menu > img:hover {
   opacity: 0.6;
 }
 

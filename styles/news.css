@@ -1,0 +1,55 @@
+.wrap {
+  padding: 7.5rem;
+}
+
+.news {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.notice1 {
+  width: 30%;
+  position: relative;
+}
+.notice1 img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.notice1 > div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 1rem;
+  color: #fff;
+  left: 20%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+
+.notice1 i {
+  font-size: 25px;
+  padding: 0 0.5rem;
+}
+
+.notice2 {
+  width: 60%;
+}
+
+.notice2 img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.notice3 {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.notice3 img {
+  width: 100%;
+  border-radius: 0 30px 0 30px;
+}

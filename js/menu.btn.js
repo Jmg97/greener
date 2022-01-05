@@ -1,6 +1,8 @@
 const box = document.querySelector(".slide-items");
 const leftBtn = document.querySelector(".left-arrow");
 const rightBtn = document.querySelector(".right-arrow");
+const info = document.querySelector(".info");
+const glass = document.querySelector(".info-box");
 
 let menuSlide = Array.from(document.querySelectorAll(".slide-items > li"));
 let menuIndex =  menuSlide.length;
@@ -27,6 +29,13 @@ function backmove(){
     }
 }
 
+function view(){
+    if(info.classList.contains("hide")){
+        info.classList.remove("hide")
+        info.style.transform = "translateY(500%)"
+    }
+}
 
+glass.addEventListener("mouseover", view);
 leftBtn.addEventListener("click", backmove);
 rightBtn.addEventListener("click", move);

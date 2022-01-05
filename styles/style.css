@@ -2,6 +2,7 @@
 @import url(header-component.css);
 @import url(main-banner_component.css);
 @import url(menu.css);
+@import url(news.css);
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
 * {
@@ -27,4 +28,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hide {
+  display: none;
+  transition: all 0.3s ease;
 }
