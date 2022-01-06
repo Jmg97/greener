@@ -26,6 +26,8 @@
 
 .menu-box > ul > li {
   font-size: 15px;
+  width: 100px;
+  text-align: center;
 }
 
 .menu-box li:first-child {

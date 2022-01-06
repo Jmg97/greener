@@ -25,7 +25,7 @@
 }
 
 /* 메뉴 */
-li {
+.nav > li {
   width: 100px;
   text-align: center;
 }
