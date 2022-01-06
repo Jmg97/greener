@@ -46,7 +46,7 @@ figure{
   transform: translateX(30%);
 }
 .go-insta > a{
-    width: 10%;
+    width: 12%;
 
 
 }
@@ -54,6 +54,12 @@ figure{
 .go-insta i{
     font-size: 2em;
     color: #00584c;
+    
+}
+.go-insta span{
+    font-style: italic;
+    padding:0 0.5em
+    
 }
 .go-insta i{
     transition: transform 0.5s ease;
