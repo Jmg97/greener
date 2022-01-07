@@ -42,7 +42,7 @@ figure{
     align-items: center;
 }
 
-.go-insta:hover i{
+.go-insta > a :hover ~ .arrow{
   transform: translateX(30%);
 }
 .go-insta > a{
