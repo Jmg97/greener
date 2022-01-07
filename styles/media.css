@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 1279px) {
+    html {
+      font-size: 80%;
+    }
+    .all-container{
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .head-box{
+        width: 100%;
+    }
+    .news{
+        width: 100vw;
+        padding: 2em;
+    }
+    .insta-box{width: 100vw;
+    padding:2em}
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    html {
+      font-size: 70%;
+    }
+    .head-box{
+        width: 100%;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+    html {
+      font-size: 60%;
+    }
+     .head-box{
+        width: 100%;
+    }
+    .news{
+       flex-direction: column;
+       height: 50%;
+    }
+    .notice1,
+    .notice2,
+    .notice3{
+        width: 100%;
+        margin-bottom: 1.5em;
+        height: auto;
+    }
+  }
