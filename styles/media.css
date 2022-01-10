@@ -16,15 +16,41 @@
         padding: 2em;
     }
     .insta-box{width: 100vw;
-    padding:2em}
-  }
+    padding:2em;
+} 
+.slide-items{
+    font-size: 65%;
   
+}
+.left-arrow{
+    left: 35rem;
+}
+.right-arrow{
+    right: 32rem;
+}
+
+    .footer-wrap{
+        width: 100%;
+    }
+  }
+   
   @media (min-width: 768px) and (max-width: 1023px) {
     html {
       font-size: 70%;
     }
     .head-box{
         width: 100%;
+    }
+    .slide-items{
+        font-size: 35%;
+      
+    }
+    .left-arrow{
+        left: 45rem;
+
+    }
+    .right-arrow{
+        right: 45rem;
     }
   }
   
@@ -37,6 +63,7 @@
     }
     .news{
        flex-direction: column;
+       align-content: space-between;
        height: 50%;
     }
     .notice1,
@@ -46,4 +73,78 @@
         margin-bottom: 1.5em;
         height: auto;
     }
+    .notice1 > img{
+height: 40rem;
+       
+    }
+    .slide-items{
+        font-size: 85%;
+        padding:0 4em;
+      
+    }
+    .left-arrow{
+        left: 65rem;
+
+    }
+    .right-arrow{
+        right:65rem;
+    }
+    .notice3{
+        margin-top: 0;
+    }
+    .go-insta > a{
+display: flex;
+margin-right: 5%;
+    }
   }
+
+  @media screen and (max-width: 479px){
+    .slide-items{
+        font-size: 50%;
+        padding:0 4em;
+    }
+    .menu-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-box > ul{
+        margin:4em 0;
+    }
+    .notice1,
+    .notice2,
+    .notice3{
+        width: 100%;
+        margin-bottom: 1.5em;
+        height: auto;
+    }
+    .notice1 > img{
+height: 40rem;
+  }
+  .notice3{
+    margin-top: 0;
+  }
+  .item-box{
+      justify-content: space-evenly;
+  }
+  .item:nth-child(1),
+  .item:nth-child(2),
+  .item:nth-child(3),
+  .item:nth-child(4),
+  .item:nth-child(5),
+  .item:nth-child(6),
+  .item:nth-child(7),
+  .item:nth-child(8),
+  .item:nth-child(9),
+  .item:nth-child(10),
+  .item:nth-child(11),
+  .item:nth-child(12){
+      width:30%;
+      padding-bottom: 30%;
+      margin-bottom: 2%;
+  }
+
+  .go-insta > a{
+    display: flex;
+    margin-right: 20%;
+        }
+}

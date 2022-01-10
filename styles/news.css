@@ -53,3 +53,9 @@
   width: 100%;
   border-radius: 0 30px 0 30px;
 }
+
+.notice1  img,
+.notice2  img,
+.notice3  img{
+  height: 21rem;
+}
