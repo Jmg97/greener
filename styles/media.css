@@ -28,10 +28,13 @@
 .right-arrow{
     right: 32rem;
 }
+.footer-wrap{
+      width: 100%;
+}
+.nav a {
+    font-size:1.3em;
+}
 
-    .footer-wrap{
-        width: 100%;
-    }
   }
    
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -52,6 +55,15 @@
     .right-arrow{
         right: 45rem;
     }
+    .nav a {
+        font-size:1.3em;
+    }
+    .logo > img {
+      height: 5rem;
+    }
+    .menu-box{
+        width: 100vw;
+    }
   }
   
   @media (min-width: 480px) and (max-width: 767px) {
@@ -71,11 +83,10 @@
     .notice3{
         width: 100%;
         margin-bottom: 1.5em;
-        height: auto;
+
     }
-    .notice1 > img{
-height: 40rem;
-       
+
+
     }
     .slide-items{
         font-size: 85%;
@@ -89,12 +100,21 @@ height: 40rem;
     .right-arrow{
         right:65rem;
     }
-    .notice3{
-        margin-top: 0;
-    }
     .go-insta > a{
 display: flex;
 margin-right: 5%;
+    }
+    .nav a {
+        font-size:1.5em;
+    }
+    .logo > img {
+        height: 5.5rem;
+      }
+      .menu-box{
+        width: 100vw;
+    }
+    .menu-box > h1{
+        font-size: 300%;
     }
   }
 
@@ -117,12 +137,7 @@ margin-right: 5%;
         margin-bottom: 1.5em;
         height: auto;
     }
-    .notice1 > img{
-height: 40rem;
-  }
-  .notice3{
-    margin-top: 0;
-  }
+
   .item-box{
       justify-content: space-evenly;
   }
@@ -147,4 +162,8 @@ height: 40rem;
     display: flex;
     margin-right: 20%;
         }
+    }
+    .menu-box{
+        width: 100vw;
+    }
 }
