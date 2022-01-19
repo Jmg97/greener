@@ -1,145 +1,211 @@
-
 @media screen and (max-width: 1279px) {
-    html {
-      font-size: 80%;
-    }
-    .all-container{
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-    }
-    .head-box{
-        width: 100%;
-    }
-    .news{
-        width: 100vw;
-        padding: 2em;
-    }
-    .insta-box{width: 100vw;
-    padding:2em;
-} 
-.slide-items{
-    font-size: 65%;
-  
-}
-.left-arrow{
-    left: 35rem;
-}
-.right-arrow{
-    right: 32rem;
-}
-.footer-wrap{
-      width: 100%;
-}
-.nav a {
-    font-size:1.3em;
-}
-
+  html {
+    font-size: 80%;
   }
-   
-  @media (min-width: 768px) and (max-width: 1023px) {
-    html {
-      font-size: 70%;
-    }
-    .head-box{
-        width: 100%;
-    }
-    .slide-items{
-        font-size: 35%;
-      
-    }
-    .left-arrow{
-        left: 45rem;
-
-    }
-    .right-arrow{
-        right: 45rem;
-    }
-    .nav a {
-        font-size:1.3em;
-    }
-    .logo > img {
-      height: 5rem;
-    }
-    .menu-box{
-        width: 100vw;
-    }
+  .all-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
   }
-  
-  @media (min-width: 480px) and (max-width: 767px) {
-    html {
-      font-size: 60%;
-    }
-     .head-box{
-        width: 100%;
-    }
-    .news{
-       flex-direction: column;
-       align-content: space-between;
-       height: 50%;
-    }
-    .notice1,
-    .notice2,
-    .notice3{
-        width: 100%;
-        margin-bottom: 1.5em;
+  .news {
+    width: 100vw;
+    padding: 2em;
+  }
+  .insta-box {
+    width: 100vw;
+    padding: 2em;
+  }
+  .slide-items {
+    font-size: 85%;
+  }
+  .slide-items > li {
+    font-size: 80%;
+  }
+  .left-arrow {
+    left: 60rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: green;
+    transition: all 0.5s ease;
+    opacity: 1;
+    box-shadow: 5px 3px 3px rgba(90, 89, 89, 0.801);
+  }
+  .right-arrow {
+    right: 60rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: green;
+    transition: all 0.5s ease;
+    opacity: 1;
+    box-shadow: 5px 3px 3px rgba(90, 89, 89, 0.801);
+  }
+  .footer-wrap {
+    width: 100%;
+  }
+  .nav a {
+    font-size: 1.3em;
+  }
+}
 
-    }
-
-
-    }
-    .slide-items{
-        font-size: 85%;
-        padding:0 4em;
-      
-    }
-    .left-arrow{
-        left: 65rem;
-
-    }
-    .right-arrow{
-        right:65rem;
-    }
-    .go-insta > a{
-display: flex;
-margin-right: 5%;
-    }
-    .nav a {
-        font-size:1.5em;
-    }
-    .logo > img {
-        height: 5.5rem;
-      }
-      .menu-box{
-        width: 100vw;
-    }
-    .menu-box > h1{
-        font-size: 300%;
-    }
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 70%;
+  }
+  .head-box {
+    width: 100%;
+  }
+  .slide-items {
+    font-size: 80%;
+  }
+  .slide-items > li {
+    font-size: 85%;
   }
 
-  @media screen and (max-width: 479px){
-    .slide-items{
-        font-size: 50%;
-        padding:0 4em;
-    }
-    .menu-box{
-        flex-direction: column;
-        align-items: center;
-    }
-    .menu-box > ul{
-        margin:4em 0;
-    }
-    .notice1,
-    .notice2,
-    .notice3{
-        width: 100%;
-        margin-bottom: 1.5em;
-        height: auto;
-    }
+  .nav a {
+    font-size: 1.3em;
+  }
+  .logo > img {
+    height: 5rem;
+  }
+  .menu-box {
+    width: 100vw;
+  }
+  .go-insta > a {
+    font-size: 80%;
+  }
+  .left-arrow {
+    left: 30rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #00584c;
+    color: #fff;
+    opacity: 1;
+    transition: none;
+  }
+  .right-arrow {
+    right: 30rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #00584c;
+    color: #fff;
+    transition: none;
+    opacity: 1;
+  }
+}
 
-  .item-box{
-      justify-content: space-evenly;
+@media (min-width: 480px) and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+  .head-box {
+    width: 100%;
+  }
+  .news {
+    flex-direction: column;
+    align-content: space-between;
+    height: 50%;
+  }
+  .notice1,
+  .notice2,
+  .notice3 {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+  .slide-items {
+    font-size: 100%;
+  }
+  .slide-items > li {
+    font-size: 80%;
+  }
+
+  .go-insta > a {
+    display: flex;
+    margin-right: 5%;
+  }
+  .nav a {
+    font-size: 1.5em;
+  }
+  .logo > img {
+    height: 5.5rem;
+  }
+  .menu-box {
+    width: 100vw;
+  }
+  .menu-box > h1 {
+    font-size: 300%;
+  }
+  .notice1 > img {
+    display: none;
+  }
+  .left-arrow {
+    left: 25rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #00584c;
+    color: #fff;
+    transition: none;
+  }
+  .right-arrow {
+    right: 25rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #00584c;
+    color: #fff;
+    transition: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  main {
+    width: 100vw;
+  }
+  .wrap {
+    padding: 0;
+  }
+  .slide-items {
+    font-size: 5%;
+  }
+  .slide-items > li {
+    font-size: 50%;
+  }
+  .menu-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-box > ul {
+    margin: 4em 0;
+  }
+  .notice1,
+  .notice2,
+  .notice3 {
+    width: 100%;
+    margin-bottom: 1.5em;
+    height: auto;
+  }
+  .head-box {
+    width: 100%;
+  }
+  .img-box {
+    width: 100vw;
+  }
+  .img1 {
+    height: 60vh;
+    background: no-repeat center / cover url(../images/mobile-banner1.jpg);
+  }
+  .img2 {
+    height: 60vh;
+    background: no-repeat center / cover url(../images/mobile-banner2.jpg);
+  }
+
+  .img3 {
+    height: 60vh;
+    background: no-repeat center / cover url(../images/mobile-banner3.jpg);
+  }
+
+  .item-box {
+    justify-content: space-evenly;
   }
   .item:nth-child(1),
   .item:nth-child(2),
@@ -152,18 +218,49 @@ margin-right: 5%;
   .item:nth-child(9),
   .item:nth-child(10),
   .item:nth-child(11),
-  .item:nth-child(12){
-      width:30%;
-      padding-bottom: 30%;
-      margin-bottom: 2%;
+  .item:nth-child(12) {
+    width: 30%;
+    padding-bottom: 30%;
+    margin-bottom: 2%;
   }
 
-  .go-insta > a{
+  .go-insta > a {
     display: flex;
     margin-right: 20%;
-        }
-    }
-    .menu-box{
-        width: 100vw;
-    }
+  }
+  .menu-box {
+    width: 100%;
+  }
+  .footer-top {
+    display: flex;
+  }
+  .footer-top > ul {
+    width: 100vw;
+  }
+  .footer-top li {
+    width: 25%;
+    font-size: 0.9em;
+  }
+  .footer-btm {
+    flex-direction: column;
+  }
+  .left-arrow {
+    left: 10rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #00584c;
+    color: #fff;
+    transition: none;
+  }
+  .right-arrow {
+    right: 10rem;
+    top: 25rem;
+    border-radius: 50%;
+    background-color: #00584c;
+    color: #fff;
+    transition: none;
+  }
+  .nav a {
+    font-size: 1em;
+  }
 }

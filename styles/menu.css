@@ -69,18 +69,13 @@
 
 .slide-items > li {
   float: left;
-  width: 250px;
+  font-size: 80%;
   margin-left: 11.5em;
   position: relative;
 }
 
 .slide-items li:first-child {
   margin-left: 0;
-}
-
-.info {
-  position: absolute;
-  transition: transform 1s ease;
 }
 
 .slide-items img {

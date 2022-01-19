@@ -11,8 +11,7 @@
   transition: transform 0.6s;
 }
 .img-box {
-  width: 1920px;
-
+  width: 33.3333%;
   float: left;
 }
 
@@ -21,7 +20,7 @@
   height: 30rem;
   display: block;
   background-image: url(../images/banner01.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -31,7 +30,7 @@
   height: 30rem;
   display: block;
   background-image: url(../images/banner03.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -41,7 +40,7 @@
   height: 30rem;
   display: block;
   background-image: url(../images/banner02.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -71,36 +70,4 @@
   width: 40px;
   border-radius: 10px;
   background-color: rgb(250, 250, 66);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-}
-
-@media screen and (min-width: 481px) and (max-width: 767px) {
-}
-@media screen and (max-width: 480px) {
-  .head-box {
-    width: 100%;
-  }
-  .img-box {
-    width: 100vw;
-  }
-  .img1 {
-    width: 100%;
-    height: 30rem;
-    display: block;
-    background: no-repeat center/cover url(/imges/mobile_banner01.png);
-  }
-  .img2 {
-    width: 100%;
-    height: 30rem;
-    display: block;
-    background: no-repeat center/cover url(/imges/mobile_banner01.png);
-  }
-  .img3 {
-    width: 100%;
-    height:30rem;
-    display: block;
-    background: no-repeat center/cover url(/imges/mobile_banner01.png);
-  }
 }

@@ -29,13 +29,7 @@ function backmove(){
     }
 }
 
-function view(){
-    if(info.classList.contains("hide")){
-        info.classList.remove("hide")
-        info.style.transform = "translateY(500%)"
-    }
-}
 
-glass.addEventListener("mouseover", view);
+
 leftBtn.addEventListener("click", backmove);
 rightBtn.addEventListener("click", move);
