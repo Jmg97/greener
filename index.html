@@ -15,15 +15,24 @@
   </head>
   <body>
     <div class="all-container">
+      <button onclick="location.href='#'" class="top-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </button>
       <header class="main-header">
         <a href="#" class="logo"><img src="./images/logo.JPG"></a>
         <nav class="nav-box">
+          <input id="menu-toggle" type="checkbox" class="menu-check">
+          <label class="menu-toggle" for="menu-toggle">
+         <i class="fas fa-bars menu-open"></i>
+          <i class="fas fa-times menu-close"></i>
+          </label>
           <ul class="nav">
             <li><a href="#">메뉴</a></li>
             <li><a href="#">브랜드</a></li>
             <li><a href="#">매장찾기</a></li>
             <li><a href="#">가맹문의</a></li>
           </ul>
+      
         </nav>
       </header>
       <main>
