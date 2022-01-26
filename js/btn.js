@@ -7,29 +7,39 @@ let btnThree = document.querySelector(".btn3");
 const banner = document.querySelector(".image-main-box");
 const dot = document.querySelector(".dot")
 
-function oneSlide(){
-    banner.style.transform = "translateX(0%)";
-     btnOne.classList.add("btn-click");
-     btnTwo.classList.remove("btn-click");
-     btnThree.classList.remove("btn-click");     
-    }
-function twoSlide(){
-    banner.style.transform = "translateX(-33.33%)";
-    btnOne.classList.remove("btn-click");
-    btnTwo.classList.add("btn-click");
-    btnThree.classList.remove("btn-click");  
+let currentSlide = 0;
+let timerId=0;
+let slides = Array.from(document.querySelectorAll(".image-main-box"));
+const offsetTime = 4500;
+const duration = 400;
+
+
+
+
+
+function doSlide() {
+    
+    currentSlide++;
+    currentSlide%=slides.length;
+    
+    banner.style.marginLeft = "-100%";
+    banner.style.transition = duration+"ms";
+    window.setTimeout(function(){ 
+       banner.appendChild(banner.firstElementChild);
+        banner.removeAttribute("style");
+    },duration)
 }
 
-function threeSlide(){
-    banner.style.transform = "translateX(-66.66%)";
-    btnOne.classList.remove("btn-click");
-    btnTwo.classList.remove("btn-click");
-    btnThree.classList.add("btn-click");  
+function repeater() {
+    timerId = window.setInterval(doSlide, offsetTime);
+   banner.addEventListener("mouseenter",function(){
+        window.clearInterval(timerId);
+    })
+   banner.addEventListener("mouseleave",function(){
+        timerId=window.setInterval(doSlide,offsetTime)
+    })
 }
-
-btnOne.addEventListener("click", oneSlide);
-btnTwo.addEventListener("click", twoSlide);
-btnThree.addEventListener("click", threeSlide);
+repeater()
 
 
 
