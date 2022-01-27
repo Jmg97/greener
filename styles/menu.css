@@ -106,7 +106,7 @@
   left: 15rem;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 99;
+  z-index: 1;
   cursor: pointer;
   color: #00584c;
   opacity: 0.5;
@@ -118,7 +118,7 @@
   right: 15rem;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 99;
+  z-index: 1;
   cursor: pointer;
   color: #00584c;
   opacity: 0.5;

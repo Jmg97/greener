@@ -40,26 +40,26 @@ a {
   display: none;
   transition: all 0.3s ease;
 }
-.menu-toggle > .menu-close{
+.menu-toggle > .menu-close {
   display: none;
 }
 
-.menu-check{
+.menu-check {
   display: none;
 }
-label{
+label {
   position: absolute;
   right: 1rem;
   cursor: pointer;
   z-index: 99;
   font-size: 2rem;
   color: #fff;
- visibility: hidden;
+  visibility: hidden;
 }
-.top-btn{
+.top-btn {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 0.5rem;
+  right: 1rem;
   opacity: 0.8;
   width: 4rem;
   height: 4rem;
@@ -67,10 +67,10 @@ label{
   border: none;
   background-color: transparent;
   z-index: 99;
- visibility: hidden;
+  visibility: hidden;
 }
 
-.top-btn > i{
+.top-btn > i {
   font-size: 3rem;
   cursor: pointer;
 }
